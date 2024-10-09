@@ -12,5 +12,11 @@
     "apps/front",
     "apps/api",
     "apps/auth-provider"
-  ]
+  ],
+  "dependencies": {
+    "pm2": "^5.3.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  }
 }

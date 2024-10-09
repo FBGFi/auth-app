@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "resolveJsonModule": true,
+    "target": "ESNext",
+    "noImplicitAny": true,
+    "sourceMap": true,
+    "rootDir": "./src",
+    "skipLibCheck": true,
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "noEmit": true,
+    "allowImportingTsExtensions": true,
+    "outDir": "dist",
+    "lib": [
+      "esnext"
+    ],
+    "types": [
+      "node"
+    ],
+    "baseUrl": "./",
+    "paths": {
+      "*": [
+        "./node_modules/*"
+      ],
+      "@root/*": [
+        "./src/*"
+      ]
+    }
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "include": [
+    "src/**/*.ts",
+  ]
+}
