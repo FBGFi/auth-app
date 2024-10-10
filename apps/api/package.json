@@ -5,8 +5,8 @@
   "main": "src/index.ts",
   "type": "module",
   "scripts": {
-    "start": "bun src/index.ts",
-    "dev": "pm2 start ecosystem.config.cjs --only dev-api",
+    "dev": "bun src/index.ts",
+    "deploy": "pm2 start ecosystem.config.cjs --only dev-api",
     "build": "bun build ./src/index.ts --outdir dist --target node",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

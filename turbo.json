@@ -1,0 +1,10 @@
+{
+  "tasks": {
+    "dev": {},
+    "deploy": {
+      "dependsOn": [
+        "^build"
+      ]
+    }
+  }
+}

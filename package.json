@@ -4,6 +4,7 @@
   "description": "Base for an app implementing login using oauth",
   "main": "index.js",
   "scripts": {
+    "dev": "turbo run dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -18,6 +19,8 @@
   },
   "devDependencies": {
     "bun": "^1.1.30",
+    "turbo": "^2.1.3",
     "typescript": "^5.6.3"
-  }
+  },
+  "packageManager": "npm@10.8.2"
 }
