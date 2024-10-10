@@ -3,6 +3,7 @@ import Router from "@koa/router";
 import { prepareMiddleware } from "@fbgfi/middleware";
 import { HTTPResponseError } from "@fbgfi/constants";
 import { EndpointDefinition } from "@fbgfi/types";
+import { APPLICATION_PORT } from "./config.ts";
 
 const app = new Koa();
 
@@ -26,6 +27,6 @@ router.get("/api/status", async (ctx) => {
 app.use(router.allowedMethods());
 app.use(router.routes());
 
-app.listen(3000);
+app.listen(APPLICATION_PORT);
 
-console.log("Api started");
+console.log(`API Listening on port ${APPLICATION_PORT}`);
