@@ -7,7 +7,3 @@ app.use((ctx) => {
 });
 
 app.listen(3000);
-
-export const main = () => {
-  console.log("App started");
-};
