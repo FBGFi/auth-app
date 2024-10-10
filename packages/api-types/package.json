@@ -1,0 +1,15 @@
+{
+  "name": "@fbgfi/api-types",
+  "version": "1.0.0",
+  "description": "Package containing typings that APIs depent upon",
+  "main": "src/index.ts",
+  "type": "module",
+  "exports": [
+    "./src/index.ts"
+  ],
+  "devDependencies": {
+    "@fbgfi/types": "*"
+  },
+  "author": "",
+  "license": "ISC"
+}

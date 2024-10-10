@@ -1,0 +1,11 @@
+{
+  "name": "@fbgfi/constants",
+  "version": "1.0.0",
+  "description": "Package containing constants for configurations and such",
+  "main": "src/index.ts",
+  "exports": [
+    "./src/index.ts"
+  ],
+  "author": "",
+  "license": "ISC"
+}

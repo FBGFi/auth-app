@@ -12,7 +12,11 @@
   "workspaces": [
     "apps/front",
     "apps/api",
-    "apps/auth-provider"
+    "apps/auth-provider",
+    "packages/middleware",
+    "packages/constants",
+    "packages/api-types",
+    "packages/types"
   ],
   "dependencies": {
     "pm2": "^5.4.2"

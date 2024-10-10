@@ -1,0 +1,12 @@
+{
+  "name": "@fbgfi/types",
+  "version": "1.0.0",
+  "description": "Package containing common typings across the application",
+  "main": "src/index.ts",
+  "type": "module",
+  "exports": [
+    "./src/index.ts"
+  ],
+  "author": "",
+  "license": "ISC"
+}
